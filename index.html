@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
     <header>
         <div class="container">
-
             <div class="header__inner">
                 <div class="header__top">
                     <a class="logo" href="#">
@@ -275,6 +272,42 @@
         </div>
     </section>
 
+    <section class="parallax">
+        <div class="container">
+            <h2 class="parallax__title">
+                Do you like OUR WORK so far?<br>
+                Let's talk about YOUR PROJECT!
+            </h2>
+            <a class="parallax__btn" href="#">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="links">
+        <div class="container">
+            <div class="links_markets">
+                <div class="links_img"><img src="img/layer_30_876.png" alt=""></div>
+                <div class="links_img"><img src="img/layer_31_877.png" alt=""></div>
+                <div class="links_img"><img src="img/layer_32_878.png" alt=""></div>
+                <div class="links_img"><img src="img/layer_33_879.png" alt=""></div>
+                <div class="links_img"><img src="img/layer_34_880.png" alt=""></div>
+            </div>
+            <div>
+                <h5 class="links_text">
+                    Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+                    autem quibusdam et aut officiis debitis aut rerum”
+                </h5>
+                <h5 class="links_text_subtitle">
+                    John Doe, Google Inc.
+                </h5>
+            </div>
+            <div class="links_circles">
+                <div class="links_circle-active"></div>
+                <div class="links_circle"></div>
+                <div class="links_circle"></div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact">
         <div class="container">
             <h2 class="contact__title">Get in touch</h2>
@@ -282,37 +315,36 @@
             <div class="contact__boxs">
                 <div class="contact__box">
                     <div class="contact__info">
-                        <h5 class="contact__info-title">ADDRESS</h5>
-                        <p class="contact__info-text">
-                            312, 7th Ave, New York
+                        <h5 class="contact__info-title">Address</h5>
+                        <p class="contact__info-text">312, 7th Ave, New York
                         </p>
                         <p class="contact__info-text">
                             NY 101200, United States of America
                         </p>
                     </div>
                     <div class="contact__order">
-                        <h5 class="contact__info-title">HOTLINE (24x7)</h5>
+                        <h5 class="contact__order-title">Hotline (24x7)</h5>
                         <a class="contact__info-phone" href="tel:+65 0052 300, +65 88251 210">
                             +65 0052 300, +65 88251 210
                         </a>
-                        <a class="contact__info-phone" href="tel: +88 01723 511 340">
-                            +65 88251 210
+                        <a class="contact__info-phone" href="+88 01723 511 340">
+                            +88 01723 511 340
                         </a>
                     </div>
                     <div class="contact__email">
-                        <h5 class="contact__email-title">E-MAIL</h5>
+                        <h5 class="contact__email-title">E-mail</h5>
                         <a class="contact__email-mail" href="mailto:shapedtheme@gmail.com">
                             shapedtheme@gmail.com
                         </a>
-                        <a class="contact__email-mail" href="mailto:
-                    khalilkode@gmail.com">
+                        <a class="contact__email-mail" href="mailto:khalilkode@gmail.com">
                             khalilkode@gmail.com
                         </a>
                     </div>
                 </div>
                 <div class="contact__form-wrap">
                     <form class="contact__form" method="POST">
-                        <input class="contact__input" type="text" />
+                        <label for="test"></label>
+                        <input id="test" class="contact__input" type="text" />
                         <input class="contact__input-email" type="email" placeholder="Your E-mail" />
                         <input class="contact__input-subject" type="text" placeholder="Your subject" />
                         <input class="contact__input-name" type="text" placeholder="Company name" />
@@ -324,36 +356,21 @@
         </div>
     </section>
 
-    <section class="get_in">
-        <div class="get_in_touch">
-            <div class="git_text">
-                <p>Do you like OUR WORK so far?</p>
-                <p>Let's talk about YOUR PROJECT!</p>
-            </div>
-            <div class="btn">
-                <a class="git_btn" href="#">Get in touch</a>
-            </div>
-        </div>
-    </section>
-
     <footer class="footer">
-        <div class="footer__links">
-            <a class="footer__links-link" href="#">
-                <img src="img/layers.png" alt="twitter">
-            </a>
-            <a class="footer__links-link" href="#">
-                <img src="img/layers.png" alt="twitter">
-            </a>
-            <a class="footer__links-link" href="#">
-                <img src="img/layers.png" alt="twitter">
-            </a>
-            <a class="footer__links-link" href="#">
-                <img src="img/layers.png" alt="twitter"></a>
-        </div>
-        <div class="footer__text">
-            <p>© 2023 Startup, Designed by ShapedTheme</p>
+        <div class="container">
+            <div class="footer__wrap">
+                <img class="footer__image" src="./img/twitterfooter.png" alt="twitterfooter.png">
+                <img class="footer__image" src="./img/twitterfooter.png" alt="twitterfooter.png">
+                <img class="footer__image" src="./img/twitterfooter.png" alt="twitterfooter.png">
+                <img class="footer__image" src="./img/twitterfooter.png" alt="twitterfooter.png">
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__bottom-text">© 2023 Startup, Designed by ShapedTheme</p>
+            </div>
         </div>
     </footer>
+
 </body>
 
 </html>
